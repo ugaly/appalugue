@@ -12,7 +12,7 @@ export default function Recommended({cover, house, offer}){
                 {house}
             </Text>
 
-            <Text style={[styles.description, , styles.shadow]}>
+            <Text style={[styles.description , styles.shadow]}>
                 {offer}
             </Text>
         </ImageBackground>
